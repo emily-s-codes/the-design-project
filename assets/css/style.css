@@ -47,7 +47,6 @@ header {
     background: url("../img/ilustracion1.png") no-repeat top right;
     width: 100%;
     background-size: 50%;
-
 }
 
 #logo__block {
@@ -211,8 +210,8 @@ footer section {
 }
 
 footer section form {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 2vh;
 }
 
@@ -225,15 +224,18 @@ footer section form {
     margin: 1vh;
 }
 
-#subscribe a {
+#subscribe {
     text-decoration: none;
-    padding: 1vh 2vh;
+    padding: 1vh 1vh;
     background-color: #ff3571;
     color: #fff;
     border-radius: 5px;
+    border: none;
+    display: block;
+    margin: auto;
 }
 
-#subscribe a:hover {
+#subscribe:hover {
     background-image: linear-gradient(to right, #ff3571, #3C30FF);
 }
 
@@ -296,13 +298,17 @@ footer section form {
 
 @media only screen and (min-width: 901px) {
 
+    header {
+        background-size: 500px;
+    }
+
     h3 {
         font-size: 3.5rem;
-        padding: 3vh 3vh;
+        padding: 10vh 3vh;
     }
 
     #header__intro {
-        padding: 2vh 5vh;
+        padding: 2vh 5vw;
     }
 
     #header__intro h2 {
